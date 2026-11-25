@@ -1,0 +1,63 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0e0e14"/>
+      <stop offset="100%" stop-color="#07070A"/>
+    </radialGradient>
+    <radialGradient id="coronaGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F0EAD6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#F0EAD6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="200" fill="url(#bgGrad)"/>
+
+  <!-- Subtle bg glow -->
+  <ellipse cx="512" cy="512" rx="340" ry="340" fill="url(#coronaGlow)"/>
+
+  <!-- Corona rays — long primary -->
+  <g transform="translate(512,512)" stroke="#E8E0CC" stroke-linecap="round">
+    <line x1="0" y1="-230" x2="0" y2="-290" stroke-width="2.5" opacity="0.9"/>
+    <line x1="0" y1="230" x2="0" y2="290" stroke-width="2.5" opacity="0.9"/>
+    <line x1="230" y1="0" x2="290" y2="0" stroke-width="2.5" opacity="0.9"/>
+    <line x1="-230" y1="0" x2="-290" y2="0" stroke-width="2.5" opacity="0.9"/>
+    <line x1="163" y1="-163" x2="205" y2="-205" stroke-width="2.5" opacity="0.9"/>
+    <line x1="-163" y1="-163" x2="-205" y2="-205" stroke-width="2.5" opacity="0.9"/>
+    <line x1="163" y1="163" x2="205" y2="205" stroke-width="2.5" opacity="0.9"/>
+    <line x1="-163" y1="163" x2="-205" y2="205" stroke-width="2.5" opacity="0.9"/>
+    <!-- Secondary rays -->
+    <line x1="100" y1="-210" x2="122" y2="-258" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-100" y1="-210" x2="-122" y2="-258" stroke-width="1.5" opacity="0.6"/>
+    <line x1="100" y1="210" x2="122" y2="258" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-100" y1="210" x2="-122" y2="258" stroke-width="1.5" opacity="0.6"/>
+    <line x1="210" y1="-100" x2="258" y2="-122" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-210" y1="-100" x2="-258" y2="-122" stroke-width="1.5" opacity="0.6"/>
+    <line x1="210" y1="100" x2="258" y2="122" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-210" y1="100" x2="-258" y2="122" stroke-width="1.5" opacity="0.6"/>
+    <!-- Tertiary rays -->
+    <line x1="50" y1="-225" x2="58" y2="-268" stroke-width="1" opacity="0.35"/>
+    <line x1="-50" y1="-225" x2="-58" y2="-268" stroke-width="1" opacity="0.35"/>
+    <line x1="50" y1="225" x2="58" y2="268" stroke-width="1" opacity="0.35"/>
+    <line x1="-50" y1="225" x2="-58" y2="268" stroke-width="1" opacity="0.35"/>
+    <line x1="225" y1="-50" x2="268" y2="-58" stroke-width="1" opacity="0.35"/>
+    <line x1="-225" y1="-50" x2="-268" y2="-58" stroke-width="1" opacity="0.35"/>
+    <line x1="225" y1="50" x2="268" y2="58" stroke-width="1" opacity="0.35"/>
+    <line x1="-225" y1="50" x2="-268" y2="58" stroke-width="1" opacity="0.35"/>
+    <!-- Outer thin ring -->
+    <circle cx="0" cy="0" r="218" fill="none" stroke="#E8E0CC" stroke-width="1" opacity="0.2"/>
+    <!-- Sun body -->
+    <circle cx="0" cy="0" r="200" fill="#111118"/>
+    <circle cx="0" cy="0" r="200" fill="none" stroke="#E8E0CC" stroke-width="3" opacity="0.6"/>
+    <!-- Inner platinum ring -->
+    <circle cx="0" cy="0" r="194" fill="none" stroke="#F5F0E8" stroke-width="1" opacity="0.3"/>
+    <!-- Moon covering — offset for crescent eclipse -->
+    <circle cx="42" cy="-30" r="192" fill="#07070A"/>
+    <!-- Moon surface — very subtle -->
+    <circle cx="42" cy="-30" r="192" fill="none" stroke="#1a1a2a" stroke-width="1"/>
+    <!-- Eclipse crescent platinum glow ring -->
+    <circle cx="0" cy="0" r="200" fill="none" stroke="#F5F0E8" stroke-width="3" opacity="0.85"/>
+    <!-- Bright crescent highlight arc -->
+    <path d="M -140 -150 A 200 200 0 0 1 155 -145" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+# DodoX Tech — https://dodoxtechs.in
+User-agent: *
+Allow: /
+
+# AI search / answer engines (explicitly welcome — these cite and link sources)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://dodoxtechs.in/sitemap.xml

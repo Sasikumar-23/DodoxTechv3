@@ -1,0 +1,87 @@
+<svg width="1920" height="600" viewBox="0 0 1920 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="heroGlow" cx="30%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#3a3020" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#07070A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="eclipseAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F5F0E8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F5F0E8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- BG -->
+  <rect width="1920" height="600" fill="#07070A"/>
+  <rect width="1920" height="600" fill="url(#heroGlow)"/>
+
+  <!-- Subtle star field -->
+  <circle cx="900" cy="80" r="1" fill="#F5F0E8" opacity="0.3"/>
+  <circle cx="1400" cy="120" r="1.5" fill="#F5F0E8" opacity="0.2"/>
+  <circle cx="1650" cy="200" r="1" fill="#F5F0E8" opacity="0.25"/>
+  <circle cx="1750" cy="450" r="1" fill="#F5F0E8" opacity="0.2"/>
+  <circle cx="1200" cy="500" r="1.5" fill="#F5F0E8" opacity="0.15"/>
+  <circle cx="600" cy="500" r="1" fill="#F5F0E8" opacity="0.2"/>
+  <circle cx="300" cy="150" r="1" fill="#F5F0E8" opacity="0.15"/>
+  <circle cx="1850" cy="350" r="1" fill="#F5F0E8" opacity="0.2"/>
+  <circle cx="100" cy="400" r="1.5" fill="#F5F0E8" opacity="0.1"/>
+  <circle cx="1550" cy="80" r="1" fill="#F5F0E8" opacity="0.2"/>
+
+  <!-- Large eclipse centerpiece LEFT area -->
+  <g transform="translate(480,300)">
+    <ellipse cx="0" cy="0" rx="320" ry="320" fill="url(#eclipseAura)"/>
+    <!-- Corona rays -->
+    <g stroke="#E8E0CC" stroke-linecap="round">
+      <line x1="0" y1="-210" x2="0" y2="-260" stroke-width="2" opacity="0.8"/>
+      <line x1="0" y1="210" x2="0" y2="260" stroke-width="2" opacity="0.8"/>
+      <line x1="210" y1="0" x2="260" y2="0" stroke-width="2" opacity="0.8"/>
+      <line x1="-210" y1="0" x2="-260" y2="0" stroke-width="2" opacity="0.8"/>
+      <line x1="148" y1="-148" x2="184" y2="-184" stroke-width="2" opacity="0.8"/>
+      <line x1="-148" y1="-148" x2="-184" y2="-184" stroke-width="2" opacity="0.8"/>
+      <line x1="148" y1="148" x2="184" y2="184" stroke-width="2" opacity="0.8"/>
+      <line x1="-148" y1="148" x2="-184" y2="184" stroke-width="2" opacity="0.8"/>
+      <line x1="90" y1="-192" x2="110" y2="-236" stroke-width="1.2" opacity="0.5"/>
+      <line x1="-90" y1="-192" x2="-110" y2="-236" stroke-width="1.2" opacity="0.5"/>
+      <line x1="90" y1="192" x2="110" y2="236" stroke-width="1.2" opacity="0.5"/>
+      <line x1="-90" y1="192" x2="-110" y2="236" stroke-width="1.2" opacity="0.5"/>
+      <line x1="192" y1="-90" x2="236" y2="-110" stroke-width="1.2" opacity="0.5"/>
+      <line x1="-192" y1="-90" x2="-236" y2="-110" stroke-width="1.2" opacity="0.5"/>
+      <line x1="192" y1="90" x2="236" y2="110" stroke-width="1.2" opacity="0.5"/>
+      <line x1="-192" y1="90" x2="-236" y2="110" stroke-width="1.2" opacity="0.5"/>
+      <!-- Tertiary fine rays -->
+      <line x1="45" y1="-206" x2="52" y2="-248" stroke-width="0.8" opacity="0.3"/>
+      <line x1="-45" y1="-206" x2="-52" y2="-248" stroke-width="0.8" opacity="0.3"/>
+      <line x1="206" y1="-45" x2="248" y2="-52" stroke-width="0.8" opacity="0.3"/>
+      <line x1="-206" y1="-45" x2="-248" y2="-52" stroke-width="0.8" opacity="0.3"/>
+      <line x1="45" y1="206" x2="52" y2="248" stroke-width="0.8" opacity="0.3"/>
+      <line x1="-45" y1="206" x2="-52" y2="248" stroke-width="0.8" opacity="0.3"/>
+      <line x1="206" y1="45" x2="248" y2="52" stroke-width="0.8" opacity="0.3"/>
+      <line x1="-206" y1="45" x2="-248" y2="52" stroke-width="0.8" opacity="0.3"/>
+    </g>
+    <circle cx="0" cy="0" r="202" fill="none" stroke="#E8E0CC" stroke-width="1" opacity="0.15"/>
+    <circle cx="0" cy="0" r="194" fill="#0c0c12"/>
+    <circle cx="0" cy="0" r="194" fill="none" stroke="#E8E0CC" stroke-width="2.5" opacity="0.4"/>
+    <!-- Moon disc -->
+    <circle cx="38" cy="-28" r="186" fill="#07070A"/>
+    <!-- Eclipse ring -->
+    <circle cx="0" cy="0" r="194" fill="none" stroke="#F5F0E8" stroke-width="3" opacity="0.95"/>
+    <!-- Crescent highlight -->
+    <path d="M -136 -142 A 194 194 0 0 1 148 -138" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <!-- Right side TEXT block -->
+  <g transform="translate(960,0)">
+    <!-- Thin top rule -->
+    <line x1="0" y1="155" x2="900" y2="155" stroke="#1e1e1e" stroke-width="0.5"/>
+    <text x="0" y="148" font-family="'Arial', sans-serif" font-size="14" fill="#5a5040" letter-spacing="6">COIMBATORE · INDIA · 2026</text>
+
+    <text x="0" y="260" font-family="'Georgia', serif" font-size="88" font-weight="400" fill="#F5F0E8" letter-spacing="3">DODOX</text>
+    <text x="0" y="355" font-family="'Georgia', serif" font-size="88" font-weight="400" fill="#9A9080" letter-spacing="3">TECHS</text>
+
+    <text x="4" y="408" font-family="'Arial', sans-serif" font-size="18" font-weight="300" fill="#5a5040" letter-spacing="18">STUDIO</text>
+
+    <!-- Bottom rule + tagline -->
+    <line x1="0" y1="445" x2="900" y2="445" stroke="#1e1e1e" stroke-width="0.5"/>
+    <text x="0" y="472" font-family="'Arial', sans-serif" font-size="16" fill="#3a3028" letter-spacing="5">BUILD SMARTER · GROW FASTER</text>
+    <text x="880" y="472" text-anchor="end" font-family="'Arial', sans-serif" font-size="13" fill="#2a2a2a" letter-spacing="2">dodoxtechs.in</text>
+  </g>
+</svg>

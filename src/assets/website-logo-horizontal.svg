@@ -1,0 +1,51 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glowBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F5F0E8" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#F5F0E8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="#07070A"/>
+
+  <!-- Eclipse symbol left -->
+  <g transform="translate(150,150)">
+    <ellipse cx="0" cy="0" rx="90" ry="90" fill="url(#glowBg)"/>
+    <!-- Corona rays -->
+    <g stroke="#E8E0CC" stroke-linecap="round">
+      <line x1="0" y1="-92" x2="0" y2="-114" stroke-width="1.8" opacity="0.9"/>
+      <line x1="0" y1="92" x2="0" y2="114" stroke-width="1.8" opacity="0.9"/>
+      <line x1="92" y1="0" x2="114" y2="0" stroke-width="1.8" opacity="0.9"/>
+      <line x1="-92" y1="0" x2="-114" y2="0" stroke-width="1.8" opacity="0.9"/>
+      <line x1="65" y1="-65" x2="80" y2="-80" stroke-width="1.8" opacity="0.9"/>
+      <line x1="-65" y1="-65" x2="-80" y2="-80" stroke-width="1.8" opacity="0.9"/>
+      <line x1="65" y1="65" x2="80" y2="80" stroke-width="1.8" opacity="0.9"/>
+      <line x1="-65" y1="65" x2="-80" y2="80" stroke-width="1.8" opacity="0.9"/>
+      <line x1="40" y1="-84" x2="48" y2="-102" stroke-width="1" opacity="0.5"/>
+      <line x1="-40" y1="-84" x2="-48" y2="-102" stroke-width="1" opacity="0.5"/>
+      <line x1="40" y1="84" x2="48" y2="102" stroke-width="1" opacity="0.5"/>
+      <line x1="-40" y1="84" x2="-48" y2="102" stroke-width="1" opacity="0.5"/>
+      <line x1="84" y1="-40" x2="102" y2="-48" stroke-width="1" opacity="0.5"/>
+      <line x1="-84" y1="-40" x2="-102" y2="-48" stroke-width="1" opacity="0.5"/>
+      <line x1="84" y1="40" x2="102" y2="48" stroke-width="1" opacity="0.5"/>
+      <line x1="-84" y1="40" x2="-102" y2="48" stroke-width="1" opacity="0.5"/>
+    </g>
+    <circle cx="0" cy="0" r="84" fill="none" stroke="#E8E0CC" stroke-width="1" opacity="0.2"/>
+    <circle cx="0" cy="0" r="78" fill="#0d0d12"/>
+    <circle cx="0" cy="0" r="78" fill="none" stroke="#E8E0CC" stroke-width="2" opacity="0.5"/>
+    <!-- Moon -->
+    <circle cx="17" cy="-12" r="75" fill="#07070A"/>
+    <circle cx="0" cy="0" r="78" fill="none" stroke="#F5F0E8" stroke-width="2.5" opacity="0.9"/>
+    <path d="M -54 -58 A 78 78 0 0 1 60 -56" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  </g>
+
+  <!-- Vertical divider -->
+  <line x1="282" y1="80" x2="282" y2="220" stroke="#1e1e1e" stroke-width="1"/>
+
+  <!-- Wordmark -->
+  <text x="312" y="165" font-family="'Georgia', 'Times New Roman', serif" font-size="72" font-weight="400" fill="#F5F0E8" letter-spacing="6">DODOXTECHS</text>
+  <text x="315" y="205" font-family="'Arial', sans-serif" font-size="22" font-weight="300" fill="#9A9080" letter-spacing="22">STUDIO</text>
+
+  <!-- Tagline bottom right -->
+  <text x="1180" y="270" text-anchor="end" font-family="'Arial', sans-serif" font-size="13" fill="#2e2e2e" letter-spacing="4">BUILD SMARTER · GROW FASTER</text>
+</svg>
